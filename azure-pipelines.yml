@@ -15,6 +15,7 @@ steps:
   inputs:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'ARO Connection'
+    version: '4.5.3'
     cmd: 'oc start-build nodejs-ex --follow'
 
 - task: oc-cmd@2
